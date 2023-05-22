@@ -16,7 +16,7 @@ export default function Home() {
         <Sidebar
           view={view}
           setView={setView}
-          setGlobalPlaylistId={setGlobalArtistId}
+          setGlobalPlaylistId={setGlobalPlaylistId}
         ></Sidebar>
         {view === "playlist" && <PlaylistView 
           globalPlaylistId={globalPlaylistId}

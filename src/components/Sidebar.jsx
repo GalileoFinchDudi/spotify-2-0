@@ -57,6 +57,7 @@ export default function Sidebar({view, setView, setGlobalPlaylistId}) {
           return (
             <p 
               onClick={() => {
+                console.log(playlist.id)
                 setView("playlist")
                 setGlobalPlaylistId(playlist.id)
               }} 
